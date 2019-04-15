@@ -14,20 +14,30 @@ body {
   background-color: black;
   position: sticky;
   top: 0px;
+  z-index:1;
   input {
     font-size: 1.5em;
     border-radius: .25em;
+    transition: all .5s ease;
+  }
+  input:focus {
+    padding-right: 80px;
+    transition: all .5s ease;
   }
 }
 
 #video-detail {
   width: 100%;
+  z-index: 0;
+  .embed-responsive:hover {
+    box-shadow: 5px 5px 5px grey;
+  }
 }
 
 #video-section {
   margin: 50px;
   display: flex;
-
+  
   li {
     list-style: none;
     cursor: pointer;
