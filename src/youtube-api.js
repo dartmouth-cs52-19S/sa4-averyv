@@ -1,4 +1,4 @@
-import axios from 'axios'; 
+import axios from 'axios';
 
 const API_URL = 'https://www.googleapis.com/youtube/v3/search';
 const API_KEY = 'AIzaSyCVQPijelagaOe8JWcPFihooXp06DZKqxc';
