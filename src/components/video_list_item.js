@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 
 const VideoListItem = (props) => {
   const imgUrl = props.video.snippet.thumbnails.default.url;
